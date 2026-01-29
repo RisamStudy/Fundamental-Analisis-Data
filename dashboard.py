@@ -131,7 +131,7 @@ def main_dashboard(df):
     plot_delivery_performance_by_review(df)
 
 
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("https://github.com/RisamStudy/Fundamental-Analisis-Data/releases/download/v1.0/main_data.csv")
 
 datetime_columns = ["order_delivered_customer_date", "order_delivered_customer_date"]
 df.sort_values(by=datetime_columns, inplace=True)
