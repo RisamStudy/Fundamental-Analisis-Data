@@ -158,7 +158,7 @@ def main_dashboard(df):
 # MAIN EXECUTION
 # =========================================================
 
-df = pd.read_csv("main_data.csv")
+df = pd.read_csv("https://github.com/RisamStudy/Fundamental-Analisis-Data/releases/download/v1.1/main_data.csv")
 
 # Convert datetime
 df['order_delivered_customer_date'] = pd.to_datetime(df['order_delivered_customer_date'])
